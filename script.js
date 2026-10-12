@@ -10,4 +10,14 @@ function displayGrid(num=16)
        container.appendChild(pixel);
     }
 }
+function changeColor()
+{
+    const grids=document.querySelectorAll("grid");
+    grids.forEach(function(element,index,array)
+    {
+     element.addEventListener("mouseenter",()=>{/* change the color*/});
+    })
+    
+}
+
 displayGrid();
